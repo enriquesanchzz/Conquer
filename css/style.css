@@ -1,0 +1,289 @@
+/** Utilidades **/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** reset para rems */
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contenedor {
+    max-width: 100%;
+    padding: 0 8rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+p,
+a,
+input,
+textarea {
+    font-size: 1.8rem;
+}
+
+img {
+    max-width: 100%;
+    min-width: 10rem;
+}
+
+
+/** utilidades **/
+
+.seccion {
+    margin: 2rem 0;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
+
+.dblock {
+    display: block!important;
+}
+
+.contenido-centrado {
+    max-width: 70rem;
+}
+
+
+/** Header**/
+
+.site-header {
+    background-color: #333333;
+    padding: 2rem 2rem;
+}
+
+.site-header.inicio {
+    background: url("/img/1-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 40rem;
+    padding: 0;
+}
+
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 25rem;
+    padding: 2rem;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    background-color: #333333;
+    margin: 0;
+    width: 100%;
+}
+
+.texto-header {
+    color: white;
+    text-align: center;
+}
+
+.texto-header h1 {
+    font-weight: 700;
+    font-size: 7rem;
+    text-indent: 3rem;
+    margin: 0;
+}
+
+.texto-header h2 {
+    text-transform: uppercase;
+}
+
+
+/** Navegación**/
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem 2rem;
+}
+
+.navegacion a:hover {
+    color: rgb(125, 167, 167);
+}
+
+
+/** seccion tarjetas **/
+
+.contenedor-tarjetas {
+    display: flex;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+}
+
+.contenedor-tarjetas .service-card {
+    flex-basis: calc(25% -3rem);
+    text-align: center;
+    background-color: #f7f8fa;
+    margin: 0 1rem;
+}
+
+.card {
+    flex-basis: calc(33.3% - 3rem);
+    text-align: center;
+    background-color: #f7f8fa;
+}
+
+.card p,
+.card h2,
+.big-card p,
+.big-card h2,
+.service-card p,
+.service-card h2 {
+    padding: 0 3rem;
+}
+
+.big-card {
+    flex-basis: calc(50% - 3rem);
+    text-align: center;
+    background-color: #f7f8fa;
+}
+
+
+/** botones **/
+
+.boton {
+    background-color: rgb(125, 167, 167);
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 1rem;
+    margin: 2rem 0;
+    display: inline-block;
+}
+
+.boton.blanco {
+    background-color: transparent;
+    color: white;
+    text-shadow: 2px 2px #333333;
+}
+
+
+/** servicios **/
+
+.servicios,
+.contenido-big-column {
+    background-image: url("/img/services-header.svg");
+    background-position: center center;
+    background-size: cover;
+    height: 25rem;
+    text-align: center;
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+}
+
+.servicios h1,
+.servicios p,
+.contenido-big-column h1,
+.contenido-big-column p {
+    margin: 0;
+    padding: 0.5rem 4rem;
+    color: white;
+    text-shadow: 2px 2px #333333;
+}
+
+.contenido-big-column {
+    background-image: url(/img/bridge.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+    padding: 5rem 3rem;
+    justify-content: space-between;
+}
+
+
+/** contacto **/
+
+.contacto {
+    background-color: #f7f8fa;
+    height: auto;
+}
+
+form p {
+    font-size: 1.5rem;
+    color: #333333;
+    margin: 2rem 0 0 0;
+}
+
+form p:first-of-type {
+    margin: 0;
+}
+
+legend {
+    font-size: 2.4rem;
+    color: #333333;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+input:not([type="submit"]),
+select,
+textarea {
+    padding: 1rem;
+    display: block;
+    background-color: #E1E1E1;
+    width: 97.5%;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+
+/** footer **/
+
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.contenedor-footer {
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 0;
+    color: #f5f5f5;
+}
